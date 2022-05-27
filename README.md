@@ -15,3 +15,30 @@ were allowed a maximum of 16 trials and the task ended when all six stickers
 had been found. The task was scored as 16 minus the number of errors.
 ```
 
+### Data Dictionary
+
+Variable                        | Description
+:------------------------------ | :--------------------------------------------
+trial\_num                      | trial number
+sticker1                        | location of sticker 1
+sticker2                        | location of sticker 2
+sticker3                        | location of sticker 3
+sticker4                        | location of sticker 4
+sticker5                        | location of sticker 5
+sticker6                        | location of sticker 6
+number\_of\_clicks              | number of clicks within trial
+time\_to\_first\_click          | time to first click from start of trial (seconds)
+time\_to\_last\_click           | time to last click from start of trial (seconds)
+pot\_chosen                     | pot chosen in trial
+sticker\_in\_chosen\_pot        | name of sticker within pot, if any
+trial\_outcome                  | 'correct' or 'wrong'
+current\_working\_memory\_score | working memory score as at end of current trial
+current\_preservation\_score    | preservation score as at end of current trial
+trial\_mouse.x                  | x coordinates of clicks
+trial\_mouse.y                  | y coordinates of clicks
+trial\_mouse.leftButton         | left button clicks (1) or not (0)
+trial\_mouse.midButton          | middle button clicks (1) or not (0)
+trial\_mouse.rightButton        | right button clicks (1) or not (0)
+trial\_mouse.time               | click times (seconds)
+trial\_mouse.clicked\_name      | names of objects clicked on
+
