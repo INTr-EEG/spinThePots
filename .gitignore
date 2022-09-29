@@ -1,0 +1,7 @@
+
+dev-*/
+tmp/
+*.bat
+*.map
+*.py
+
